@@ -1,0 +1,34 @@
+{
+  "name": "purpler",
+  "displayName": "Purpler",
+  "description": "Purple color theme",
+  "version": "0.0.3",
+  "publisher": "jeffwdiaz",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.99.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jeffwdiaz/purpler"
+  },
+  "categories": [
+    "themes"
+  ],
+  "keywords": [
+    "theme",
+    "purple",
+    "jeffwdiaz",
+    "purpler",
+    "dark"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Purpler",
+        "uiTheme": "vs-dark",
+        "path": "./themes/purpler-color-theme.json"
+      }
+    ]
+  }
+}
